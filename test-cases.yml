@@ -118,7 +118,7 @@
     
 - summary: | 
     Описание товара
-  requirement: ||
+  requirement: |
     Проверка страницы товаров
   prerequisites: |
     - Открыт сайт магазина
