@@ -1,50 +1,50 @@
   ---
 test-cases: 
-- summary: | Фильтр по цене 
+- summary: | 
       Проверка фильтра товаров по цене
     status: fail
 
-- summary: | Покупка товара
+- summary: |
     Покупка товара
     status: pass
 
-- summary: | Язык сайта
+- summary: |
     Язык сайта
   status: fail
   
-- summary: | Категория товаров
+- summary: |
     Смена категории в списке товаров
   status: pass
   
-- summary: | Производитель товаров
+- summary: |
     Выбор производителя в списке товаров
   status: pass
  
-- summary: | Кнопки навигации
+- summary: |
     Проверка кнопок навигации на юзабельность
   status: pass
   
-- summary: | Хэштеги
+- summary: |
     Проверка хэштегов на юзабельность
   status: pass
   
-- summary: | Поисковая строка
+- summary: |
     Проверка поисковой строки на работоспособность 
   status: pass
   
-- summary: | Описание товара
+- summary: | 
     Проверка страницы товаров
   status: pass
   
-- summary: | Просмотр фотографий товара
+- summary: | 
     Просмотр фотографий товара
   status: fail
   
-- summary: | Работа сайта без перезагрузки
+- summary: |
     Просмотр фотографий товара
   status: fall
 bugreports:    
-- summary: | Фильтр по цене
+- summary: |
       Не работает фильтр товаров по цене
     environment: |
       Google Chrome Версия 122.0.6261.129 (Официальная сборка), (64 бит)
@@ -56,7 +56,7 @@ bugreports:
     actual-result: |
       Ничего не происходит
      
-- summary: | Поиск предметов
+- summary: | 
       Некоторые товары неверно отображаются при введении полного названия товара
     environment: |
       Google Chrome Версия 122.0.6261.129 (Официальная сборка), (64 бит)
@@ -68,7 +68,7 @@ bugreports:
     actual-result: |
       Товар сплющило, и окно ввода названия и фильтра по цене растянуло
       
-- summary: | Мобильная версия сайта
+- summary: | 
     Неверное отображение сайта на телефонах
   environment: |
     Google Chrome - Tecno Spark 10 Pro 2460x1080
@@ -79,7 +79,7 @@ bugreports:
   actual-result: |
     Сайт растянут
     
-- summary: | Цена товара в корзине
+- summary: | 
     Цена товара в корзине некорректно указана
   environment: |
     Google Chrome Версия 122.0.6261.129 (Официальная сборка), (64 бит)
@@ -92,7 +92,7 @@ bugreports:
   actual-result: |
     Отображается начальная цена товара без скидки
 
-- summary: | Перевод сайта
+- summary: | 
     Сайт не переводится на русский язык
   environment: |
     Google Chrome Версия 122.0.6261.129 (Официальная сборка), (64 бит)

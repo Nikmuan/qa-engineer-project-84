@@ -1,9 +1,9 @@
   ---
-- summary: | Покупка товара
+- summary: | 
     Покупка товара
-  requirement: |
+  requirement: 
     Добавление товара в корзину с последующей покупкой
-  prerequisites: |
+  prerequisites: 
     Открыт сайт магазина
     Iphone 9 есть в наличии
   test-data: |
@@ -13,151 +13,151 @@
     - Добавляем в корзину нажатием кнопки "В корзину"
     - Переходим в корзину
     - Нажимаем кнопку "Оформить заказ" 
-  expected-result: |
+  expected-result: 
     Должно появиться модальное окно с заголовком "Заказ успешно оформлен" 
     
-- summary: | Язык сайта
+- summary: | 
     Язык сайта
-  requirement: |
+  requirement: 
     Смена языка сайта на русский 
-  prerequisites: |
+  prerequisites: 
     Открыт сайт магазина
     Выбран английский язык
-  test-data: |
+  test-data: 
   []
   steps:
     - Нажимаем на кнопку "Язык" в правом верхнем углу 
     - Меняем язык на русский
-  expected-result: |
+  expected-result: 
     Весь текст должен перевестись на русский
     
-- summary: | Категория товаров
+- summary: | 
     Категория товаров
-  requirement: |
+  requirement: 
     Смена категории в списке товаров
-  prerequisites: |
+  prerequisites: 
     Открыт сайт магазина
-  test-data: |
+  test-data: 
     Установлена категория "Smartphones"
   steps:
     - Нажимаем на кнопку "Категория" в левом верхнем углу 
     - Меняем на категорию "Laptops"
-  expected-result: |
+  expected-result: 
     Категория товаров должна смениться
     
-- summary: | Производитель товаров
+- summary: | 
     Производитель товаров
-  requirement: |
+  requirement: 
     Выбор производителя в списке товаров
-  prerequisites: |
+  prerequisites: 
     Открыт сайт магазина
-  test-data: |
+  test-data: 
   [] 
   steps:
     - В левой части сайта выбираем одного или нескольких производителей
-  expected-result: |
+  expected-result: 
     Должны показываться товары от выбранных производителей
     
-- summary: | Фильтр по цене
+- summary: | 
     Фильтр по цене
-  requirement: |
+  requirement: 
     Проверка фильтра товаров по цене
-  prerequisites: |
+  prerequisites: 
     Открыт сайт магазина
-  test-data: |
+  test-data: 
   [] 
   steps:
     - В левой части сайта выбираем одного или нескольких производителей
-  expected-result: |
+  expected-result: 
     Должны показываться товары от выбранных производителей
     
-- summary: | Кнопки навигации
+- summary: | 
     Кнопки навигации
-  requirement: |
+  requirement: 
     Проверка кнопок навигации на юзабельность
-  prerequisites: |
+  prerequisites: 
     Открыт сайт магазина
-  test-data: |
+  test-data: 
   []  
   steps:
     - 1) Нажимаем кнопку "Store/Магазин"
     - 2) Нажимаем кнопку "Cart/Корзина"
     - 3) Нажимаем кнопку "Previous&Next/Предыдущая&Следующая"
-  expected-result: |
+  expected-result: 
     1) Открывается главная страница магазина
     2) Открывается корзина
     3) Перелистывается страница товаров
     
-- summary: | Хэштеги
+- summary: | 
     Хэштеги
-  requirement: |
+  requirement: 
     Проверка хэштегов на юзабельность
-  prerequisites: |
+  prerequisites: 
     Открыт сайт магазина
-  test-data: |
+  test-data: 
   []  
   steps:
     - 1) Открываем страницу любого товара
     - 2) Нажимаем на хэштег, к примеру "home-decoration"
-  expected-result: |
+  expected-result: 
     1) Нас перекидывает на главную страницу магазина
     2) Показываются товары с таким же хэштегом
     
-- summary: | Поисковая строка
+- summary: | 
     Поисковая строка
-  requirement: |
+  requirement: 
     Проверка поисковой строки на работоспособность 
-  prerequisites: |
+  prerequisites: 
     Открыт сайт магазина
-  test-data: |
+  test-data: 
   []
   steps:
     - 1) Открываем главную страницу магазина
     - 2) Вписываем что-нибудь в поисковую строку
-  expected-result: |
+  expected-result: 
     1) Показываются товары с выбранными символами в названии
     
-- summary: | Описание товара
+- summary: | 
     Описание товара
-  requirement: |
+  requirement: 
     Проверка страницы товаров
-  prerequisites: |
+  prerequisites: 
     Открыт сайт магазина
-  test-data: |
+  test-data: 
   [] 
   steps:
     - 1) Открываем главную страницу магазина
     - 2) Нажимаем на любой товар
-  expected-result: |
+  expected-result: 
     1) Открывается страница товара с поднобной информацией
     
-- summary: | Просмотр фотографий товара
+- summary: | 
     Просмотр фотографий товара
-  requirement: |
+  requirement: 
     Проверка адекватного отображения картинок и их переключения на странице товара
-  prerequisites: |
+  prerequisites: 
     Открыт сайт магазина
-  test-data: |
+  test-data: 
   []
   steps:
     - 1) Открываем главную страницу магазина
     - 2) Нажимаем на любой товар
     - 3) Нажимаем на любое изображение
-  expected-result: |
+  expected-result: 
     Открывается изображение товара 
     
-- summary: | Работа сайта без перезагрузки
+- summary: | 
     Работа сайта без перезагрузки
-  requirement: |
+  requirement: 
     Проверка сайта на отсутствие перезагрузки при переходе в корзину и обратно
-  prerequisites: |
+  prerequisites: 
     Открыт сайт магазина
-  test-data: |
+  test-data: 
   []
   steps:
     - 1) Открываем главную страницу магазина
     - 2) Открываем корзину
     - 3) Возвращаемся на главный экран
-  expected-result: |
+  expected-result: 
     Происходит переход без перезагрузки
     
