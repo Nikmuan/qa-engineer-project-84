@@ -17,9 +17,9 @@
     
 - summary: | 
     Язык сайта
-  requirement: 
+  requirement: |
     Смена языка сайта на русский 
-  prerequisites: 
+  prerequisites: |
     - "Открыт сайт магазина"
     - "Выбран английский язык"
   test-data: |
@@ -32,13 +32,13 @@
     
 - summary: | 
     Категория товаров
-  requirement: 
+  requirement: |
     Смена категории в списке товаров
-  prerequisites: 
+  prerequisites: |
     Открыт сайт магазина
   test-data: |
     Установлена категория "Smartphones"
-  steps: |
+  steps: 
     - Нажимаем на кнопку "Категория" в левом верхнем углу 
     - Меняем на категорию "Laptops"
   expected-result: |
@@ -46,39 +46,39 @@
     
 - summary: | 
     Производитель товаров
-  requirement: 
+  requirement: |
     Выбор производителя в списке товаров
-  prerequisites: 
+  prerequisites: |
     - Открыт сайт магазина
   test-data: |
     []
-  steps: |
+  steps: 
     - В левой части сайта выбираем одного или нескольких производителей
   expected-result: |
     Должны показываться товары от выбранных производителей
     
 - summary: | 
     Фильтр по цене
-  requirement: 
+  requirement: |
     Проверка фильтра товаров по цене
-  prerequisites: 
+  prerequisites: |
     - Открыт сайт магазина
   test-data: |
     Открыт сайт
-  steps: |
+  steps: 
     - В левой части сайта выбираем одного или нескольких производителей
   expected-result: |
     Должны показываться товары от выбранных производителей
     
 - summary: |
     Кнопки навигации
-  requirement: 
+  requirement: |
     Проверка кнопок навигации на юзабельность
-  prerequisites: 
+  prerequisites: |
     - Открыт сайт магазина
   test-data: |
     Открыт сайт
-  steps: |
+  steps: 
     - 1) Нажимаем кнопку "Store/Магазин"
     - 2) Нажимаем кнопку "Cart/Корзина"
     - 3) Нажимаем кнопку "Previous&Next/Предыдущая&Следующая"
@@ -89,13 +89,13 @@
     
 - summary: |
     Хэштеги
-  requirement: 
+  requirement: |
     Проверка хэштегов на юзабельность
-  prerequisites: 
+  prerequisites: |
     - Открыт сайт магазина
   test-data: |
     Открыт сайт 
-  steps: |
+  steps: 
     - 1) Открываем страницу любого товара
     - 2) Нажимаем на хэштег, к примеру "home-decoration"
   expected-result: |
@@ -104,13 +104,13 @@
     
 - summary: |
     Поисковая строка
-  requirement: 
+  requirement: |
     Проверка поисковой строки на работоспособность 
-  prerequisites: 
+  prerequisites: |
     - Открыт сайт магазина
   test-data: |
     Открыт сайт
-  steps: |
+  steps: 
     - 1) Открываем главную страницу магазина
     - 2) Вписываем что-нибудь в поисковую строку
   expected-result: |
@@ -118,13 +118,13 @@
     
 - summary: | 
     Описание товара
-  requirement: 
+  requirement: ||
     Проверка страницы товаров
-  prerequisites: 
+  prerequisites: |
     - Открыт сайт магазина
   test-data: |
     Открыт сайт
-  steps: |
+  steps: 
     - 1) Открываем главную страницу магазина
     - 2) Нажимаем на любой товар
   expected-result: |
@@ -132,13 +132,13 @@
     
 - summary: | 
     Просмотр фотографий товара
-  requirement: 
+  requirement: |
     Проверка адекватного отображения картинок и их переключения на странице товара
-  prerequisites: 
+  prerequisites: |
     - Открыт сайт магазина
   test-data: |
     Открыт сайт
-  steps: |
+  steps: 
     - 1) Открываем главную страницу магазина
     - 2) Нажимаем на любой товар
     - 3) Нажимаем на любое изображение
@@ -147,13 +147,13 @@
     
 - summary: | 
     Работа сайта без перезагрузки
-  requirement: 
+  requirement: |
     Проверка сайта на отсутствие перезагрузки при переходе в корзину и обратно
-  prerequisites: 
+  prerequisites: |
     - Открыт сайт магазина
   test-data: |
     Открыт сайт
-  steps: |
+  steps: 
     - 1) Открываем главную страницу магазина
     - 2) Открываем корзину
     - 3) Возвращаемся на главный экран
