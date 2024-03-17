@@ -1,44 +1,44 @@
   ---
-- summary: | Покупка товара
+- summary: | 
     Покупка товара
   status: pass
 
-- summary: | Язык сайта
+- summary: | 
     Язык сайта
   status: fail
   
-- summary: | Категория товаров
+- summary: | 
     Смена категории в списке товаров
   status: pass
   
-- summary: | Производитель товаров
+- summary: | 
     Выбор производителя в списке товаров
   status: pass
   
-- summary: | Фильтр по цене
+- summary: | 
     Проверка фильтра товаров по цене
   status: pass
   
-- summary: | Кнопки навигации
+- summary: | 
     Проверка кнопок навигации на юзабельность
   status: pass
   
-- summary: | Хэштеги
+- summary: | 
     Проверка хэштегов на юзабельность
   status: fail
   
-- summary: | Поисковая строка
+- summary: | 
     Проверка поисковой строки на работоспособность 
   status: pass
   
-- summary: | Описание товара
+- summary: | 
     Проверка страницы товаров
   status: pass
   
-- summary: | Просмотр фотографий товара
+- summary: | 
     Просмотр фотографий товара
   status: fail
   
-- summary: | Работа сайта без перезагрузки
+- summary: | 
     Просмотр фотографий товара
   status: pass
